@@ -12,7 +12,7 @@ const Footer = () => {
         {/* Left Column */}
         <div className="flex flex-col items-center lg:items-start text-center lg:text-left gap-5 lg:w-1/3 w-full">
           <img src="/logo-white.svg" alt="Logo" className="h-10" />
-          <h1 className="text-[40px] font-bold">Ready to get started?</h1>
+          <h1 className="text-[32px] md:text-[40px] font-bold">Ready to get started?</h1>
           <Link
             href="/"
             className="bg-[#2673f2] hover:bg-[#1447e6] px-5 py-2 md:text-sm rounded-lg text-lg"
@@ -27,14 +27,14 @@ const Footer = () => {
           <p className="text-[16px] font-semibold pt-3">Phone</p>
           <Link
             href="/"
-            className="text-gray-500 lg:text-[24px] text-[18px] font-semibold hover:text-white"
+            className="text-gray-500 lg:text-[24px] text-[18px] font-semibold hover:text-white break-all"
           >
             +92 328 4468 247
           </Link>
           <p className="text-[16px] font-semibold pt-3">Email</p>
           <Link
             href="/"
-            className="text-gray-500 lg:text-[24px] text-[18px] font-semibold hover:text-white"
+            className="text-gray-500 lg:text-[24px] text-[18px] font-semibold hover:text-white break-all"
           >
             info.abdullah57@gmail.com
           </Link>
@@ -74,8 +74,8 @@ const Footer = () => {
       </div>
 
       {/* Bottom Navigation & Copyright */}
-      <div className="flex flex-col md:flex-row items-center justify-between w-[95%] mx-auto border-t border-t-[#152f50] py-5 gap-3">
-        <div className="flex flex-wrap items-center justify-center md:justify-start gap-5">
+      <div className="flex flex-col items-center w-full max-w-[1200px] mx-auto border-t border-t-[#152f50] py-5 gap-3">
+        <div className='flex flex-wrap justify-center items-center gap-4 md:gap-5 w-full'>
           <Link href="/" className="text-gray-500 hover:text-[#2673f2] text-sm md:text-md">
             Home
           </Link>
@@ -95,7 +95,7 @@ const Footer = () => {
             Contact
           </Link>
         </div>
-        <p className="text-gray-500 text-sm md:text-md mt-3 md:mt-0">
+        <p className="text-gray-500 text-sm md:text-md mt-3 md:mt-0 text-center">
           © 2025 Abdullah. All rights reserved.
         </p>
       </div>
