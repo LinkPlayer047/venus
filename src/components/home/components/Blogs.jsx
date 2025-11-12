@@ -34,7 +34,6 @@ const Blogs = () => {
       <div className="mycontainer2 flex flex-col gap-10">
         {/* Header */}
         <div className="w-full flex flex-col md:flex-row items-start justify-between">
-          {/* Left Heading */}
           <motion.h1
             initial={{ opacity: 0, x: -80 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -45,12 +44,12 @@ const Blogs = () => {
             Latest Blogs & News
           </motion.h1>
 
-          {/* Right Link */}
           <motion.div
             initial={{ opacity: 0, x: 80 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
             viewport={{ once: false, amount: 0.2 }}
+            className="mt-4 md:mt-0"
           >
             <Link
               href="/"
@@ -67,9 +66,7 @@ const Blogs = () => {
           whileInView="visible"
           viewport={{ once: false, amount: 0.2 }}
           variants={{
-            visible: {
-              transition: { staggerChildren: 0.2 },
-            },
+            visible: { transition: { staggerChildren: 0.2 } },
           }}
           className="w-full flex flex-col md:flex-row gap-6"
         >
@@ -83,20 +80,19 @@ const Blogs = () => {
               transition={{ duration: 0.6, ease: "easeOut" }}
               className="w-full md:w-1/3 rounded-lg overflow-hidden shadow-lg group cursor-pointer bg-[#0d1e4b]"
             >
-              {/* Image Container */}
+              {/* Image */}
               <div className="relative overflow-hidden">
                 <img
                   src={blog.img}
                   alt={blog.title}
                   className="w-full h-60 object-cover transition-transform duration-500 group-hover:scale-110"
                 />
-                {/* Price Button */}
                 <span className="absolute top-4 left-4 bg-[#2673f2] text-white px-3 py-1 rounded-md text-sm font-semibold">
                   {blog.price}
                 </span>
               </div>
 
-              {/* Blog Content */}
+              {/* Content */}
               <div className="p-5">
                 <h3 className="text-white font-semibold text-xl mb-2">
                   {blog.title}

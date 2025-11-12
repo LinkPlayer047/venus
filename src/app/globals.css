@@ -9,11 +9,22 @@
 }
 
 .mycontainer2 {
-  max-width: 1440px;
   margin: auto;
   width: 75%;
   box-sizing: border-box;
+  max-width: 100vw;
+  padding-left: 15px;  /* Mobile edges se distance */
+  padding-right: 15px;
 }
+
+@media (max-width: 1024px) {
+  .mycontainer2 {
+    width: 100%;
+    padding-left: 15px;  /* Mobile safe padding */
+    padding-right: 15px;
+  }
+}
+
 
 @keyframes slideInLeft {
   0% {

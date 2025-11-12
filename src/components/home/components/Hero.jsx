@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <div className="bg-[#000f30] flex items-center justify-between">
-      <div className="mycontainer2 flex flex-col lg:flex-row gap-10 items-center py-40">
+      <div className="mycontainer2 flex flex-col md:flex-row gap-10 items-center py-40">
         
         {/* Left side with animation */}
         <motion.div
