@@ -52,7 +52,7 @@ const Services = () => {
       </motion.div>
 
       {/* Services Cards */}
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-stretch justify-between gap-10 px-6">
+      <div className="mycontainer2 flex flex-col md:flex-row items-stretch justify-between gap-10">
         {services.map((service, index) => (
           <motion.div
             key={index}

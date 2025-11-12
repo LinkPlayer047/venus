@@ -71,7 +71,7 @@ const Portfolio = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
         viewport={{ once: false, amount: 0.2 }}
-        className="mycontainer px-4 w-full"
+        className="mycontainer2 px-4 w-full"
       >
         <Slider {...settings}>
           {/* Card 1 */}

@@ -35,7 +35,7 @@ const Progress = () => {
 
   return (
     <section className="bg-[#081738] w-full py-16">
-      <div className="max-w-6xl mx-auto px-6 flex flex-col items-center space-y-20">
+      <div className="mycontainer2 mx-auto px-6 flex flex-col items-center space-y-20">
         {/* Top Stats Section */}
         <div
           ref={cardsRef}
