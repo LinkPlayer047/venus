@@ -15,7 +15,7 @@ const PortfolioCards = () => {
   ];
 
   return (
-    <section className="bg-[#081738] px-4 py-20 sm:py-24 md:py-28 lg:py-32">
+    <section className="bg-[#081738] px-4 py-20 sm:py-24 md:py-20 lg:py-20">
       <div className="mycontainer2 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
         {cards.map((card, idx) => {
