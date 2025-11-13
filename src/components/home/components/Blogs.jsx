@@ -30,7 +30,7 @@ const Blogs = () => {
   ];
 
   return (
-    <section className="bg-[#081738] w-full py-20 overflow-hidden">
+    <section className="bg-[#081738] w-full py-20 overflow-x-hidden">
       <div className="mycontainer2 flex flex-col gap-10">
         {/* Header */}
         <div className="w-full flex flex-col md:flex-row items-start justify-between">

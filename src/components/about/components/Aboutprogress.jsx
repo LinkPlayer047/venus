@@ -3,7 +3,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { FaCircle } from "react-icons/fa";
 
-const Progress = () => {
+const Aboutprogress = () => {
   const [cardsVisible, setCardsVisible] = useState(false);
   const [rightVisible, setRightVisible] = useState(false);
   const cardsRef = useRef(null);
@@ -34,7 +34,7 @@ const Progress = () => {
   }, []);
 
   return (
-    <section className="bg-[#081738] w-full py-16 overflow-x-hidden">
+    <section className="bg-[#000f30] w-full py-16 overflow-x-hidden">
       <div className="mycontainer2 mx-auto px-6 flex flex-col items-center space-y-20">
         {/* Top Stats Section */}
         <div
@@ -148,4 +148,4 @@ const Progress = () => {
   );
 };
 
-export default Progress;
+export default Aboutprogress

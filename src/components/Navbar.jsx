@@ -30,11 +30,11 @@ const Navbar = () => {
           {/* Desktop Links */}
           <div className="hidden lg:flex gap-10">
             <Link href="/" className="text-white hover:text-[#2673f2] text-lg">Home</Link>
-            <Link href="/" className="text-white hover:text-[#2673f2] text-lg">About</Link>
-            <Link href="/" className="text-white hover:text-[#2673f2] text-lg">Services</Link>
+            <Link href="/about" className="text-white hover:text-[#2673f2] text-lg">About</Link>
+            <Link href="/services" className="text-white hover:text-[#2673f2] text-lg">Services</Link>
             <Link href="/" className="text-white hover:text-[#2673f2] text-lg">Portfolio</Link>
             <Link href="/" className="text-white hover:text-[#2673f2] text-lg">Blogs</Link>
-            <Link href="/" className="text-white hover:text-[#2673f2] text-lg">Contact</Link>
+            <Link href="/contact" className="text-white hover:text-[#2673f2] text-lg">Contact</Link>
           </div>
 
           {/* Desktop Buttons */}
@@ -69,11 +69,11 @@ const Navbar = () => {
         {/* Mobile Links */}
         <div className="flex flex-col items-center justify-center gap-8 mt-10">
           <Link href="/" onClick={handleLinkClick} className="text-white text-2xl hover:text-[#2673f2]">Home</Link>
-          <Link href="/" onClick={handleLinkClick} className="text-white text-2xl hover:text-[#2673f2]">About</Link>
-          <Link href="/" onClick={handleLinkClick} className="text-white text-2xl hover:text-[#2673f2]">Services</Link>
+          <Link href="/about" onClick={handleLinkClick} className="text-white text-2xl hover:text-[#2673f2]">About</Link>
+          <Link href="/services" onClick={handleLinkClick} className="text-white text-2xl hover:text-[#2673f2]">Services</Link>
           <Link href="/" onClick={handleLinkClick} className="text-white text-2xl hover:text-[#2673f2]">Portfolio</Link>
           <Link href="/" onClick={handleLinkClick} className="text-white text-2xl hover:text-[#2673f2]">Blogs</Link>
-          <Link href="/" onClick={handleLinkClick} className="text-white text-2xl hover:text-[#2673f2]">Contact</Link>
+          <Link href="/contact" onClick={handleLinkClick} className="text-white text-2xl hover:text-[#2673f2]">Contact</Link>
         </div>
 
         {/* Mobile Buttons */}

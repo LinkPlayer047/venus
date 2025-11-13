@@ -85,13 +85,13 @@ const Footer = () => {
             Home
           </Link>
           <Link
-            href="/"
+            href="/about"
             className="text-gray-500 hover:text-[#2673f2] text-sm md:text-md"
           >
             About
           </Link>
           <Link
-            href="/"
+            href="/services"
             className="text-gray-500 hover:text-[#2673f2] text-sm md:text-md"
           >
             Services
@@ -109,7 +109,7 @@ const Footer = () => {
             Blogs
           </Link>
           <Link
-            href="/"
+            href="/contact"
             className="text-gray-500 hover:text-[#2673f2] text-sm md:text-md"
           >
             Contact

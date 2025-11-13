@@ -4,7 +4,7 @@ import React from "react";
 import { FaCircle } from "react-icons/fa";
 import { motion } from "framer-motion";
 
-const Services = () => {
+const Servicessection = () => {
   const services = [
     {
       img: "/ux-design-.svg",
@@ -81,4 +81,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Servicessection
