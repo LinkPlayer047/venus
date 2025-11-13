@@ -97,7 +97,7 @@ const Footer = () => {
             Services
           </Link>
           <Link
-            href="/"
+            href="/portfolio"
             className="text-gray-500 hover:text-[#2673f2] text-sm md:text-md"
           >
             Portfolio
